@@ -1,0 +1,83 @@
+#cssmenu{
+	border:none;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	}
+#cssmenu ul{
+	background:#EC1991;
+	height:25px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	}
+#cssmenu li{
+	float:left;
+	padding:0px;
+	}
+#cssmenu li a{
+	background:#EC1991;
+	color:#fff;
+	display:block;
+	font-weight:normal;
+	line-height:25px;
+	margin:0px;
+	padding:0px 10px;
+	text-align:center;
+	text-decoration:none;
+	}
+#cssmenu li a:hover, #cssmenu ul li:hover a{
+	background: #0f0ca0;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+#cssmenu li ul{
+	background:#0f0ca0;
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	position:absolute;
+	width:180px;
+	z-index:200;
+	/*top:1em;
+	/*left:0;*/
+	}
+#cssmenu li:hover ul{
+	display:block;
+	
+	}
+#cssmenu li li {
+	display:block;
+	float:none;
+	margin:0px;
+	padding:0px;
+	width:180px;
+	}
+#cssmenu li:hover li a{
+	background:none;
+	
+	}
+#cssmenu li ul a{
+	display:block;
+	height:25px;
+	font-style:normal;
+	margin:0px;
+	padding:3px 10px 0px 10px;
+	text-align:left;
+	font-size: .9em;
+		border-bottom: 1px dotted #fff;
+
+	}
+#cssmenu li ul a:hover, #cssmenu li ul li:hover a{
+	background:#31e9b8;
+		border-bottom: 1px solid #31e9b8;
+		font-weight: 700;
+letter-spacing: 1px;
+	color:#ffffff;
+	text-decoration:none;
+	}
+#cssmenu p{
+	clear:left;
+	}	

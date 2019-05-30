@@ -1,0 +1,46 @@
+# Google-Bilder-Suchroboter aussperren
+User-agent: Googlebot-Image
+Disallow: /
+
+# BEGIN XML-SITEMAP-PLUGIN
+# Sitemap: sitemap.xml.gz
+# END XML-SITEMAP-PLUGIN
+
+# Google News Extra Sitemap
+# Sitemap: google-news-sitemap.php
+# Ende Google News Extra Sitemap
+
+# Disallow: /cgi-bin
+
+
+
+# robots.txt für Wordpress
+
+# User-agent: Googlebot
+# Disallow: /index.php
+# Disallow: /feed/
+# Disallow: */feed/
+
+# Disallow: /archives/
+# Disallow: /page/
+# Disallow: /tag/
+# Disallow: /category/
+# Disallow: /category/*/*
+
+# Disallow: /*.js$
+# Disallow: /*.inc$
+# Disallow: /*.css$
+
+# Disallow: /wp-admin
+# Disallow: /wp-includes
+# Disallow: /wp-content/plugins
+# Disallow: /wp-content/cache
+# Disallow: /wp-content/themes
+
+# Disallow: /trackback/
+# Disallow: /comments
+# Disallow: */trackback
+# Disallow: */comments
+# Disallow: /*?*
+# Disallow: /*?
+# Allow: /wp-content/uploads

@@ -1,3 +1,3 @@
-# Website of Mango Aioli
+# Mango-Aioli.github.io
 
-Website of »El Grande Gabbajero« Mango Aioli
+Hallo Loite!
